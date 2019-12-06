@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<script>
 		// TODO: create a handler
+		function setSearchEngine() {
+
+		}i 
     window.addEventListener("load", function(){
         // TODO: register the handler
     });
@@ -13,7 +16,24 @@
 <body>
 
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
+	<!-- TODO: add form elements -->
+	<label>Input question here: <input type="text" name="q" value="input your query"/></label>
+	<br>
+	<label>Google<input type="radio" name="searchEngine" value="google"/></label>
+	<label>DuckDuckGo<input type="radio" name="searchEngine" value="duckDuckGo"/></label>
+	<label>Bing<input type="radio" name="searchEngine" value="bing"/></label>
+	<label>Ask<input type="radio" name="searchEngine" value="ask"/></label>
+	<br>
+	<input type="submit" name="submit" value="Go!"/>
+
+
+
+<!-- 
+Create a text input within the form and set its name attribute to the value "q".
+Create a radio group with one radio button for each search engine. Recall that radio buttons with the same name are grouped, so use the same value for this attribute, "engine", on each radio button.
+Create a label element for each radio button.
+Finally, add a submit button to the form and set it's value to "Go!".
+-->
 	</form>
 
 </body>
